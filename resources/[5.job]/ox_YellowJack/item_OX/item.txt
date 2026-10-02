@@ -1,0 +1,78 @@
+['biere'] = {
+		label = 'Biere',
+		weight = 220,
+		client = {
+			status = { drunk = 50000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_amb_beer_bottle`, pos = vec3(0.01, 0.01, 0.01), rot = vec3(-5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'Tu bu une biere'
+		},
+	},
+	
+	['whisky'] = {
+		label = 'whisky',
+		weight = 220,
+		client = {
+			status = { drunk = 50000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_whiskey_bottle`, pos = vec3(0.01, 0.01, 0.01), rot = vec3(-5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'Tu bu un whisky el fucker'
+		},
+	},
+    ['jagerbomb'] = {
+		label = 'Jager Bomb',
+		weight = 220,
+		client = {
+			status = { drunk = 50000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_whiskey_bottle`, pos = vec3(0.01, 0.01, 0.01), rot = vec3(-5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'Tu bu un Jager Bomb el fucker'
+		},
+	},
+    ['sangria'] = {
+		label = 'Sangria',
+		weight = 220,
+		client = {
+			status = { drunk = 50000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_whiskey_bottle`, pos = vec3(0.01, 0.01, 0.01), rot = vec3(-5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'Tu bu une Sagria el fucker'
+		},
+	},
+    ['redbull'] = {
+		label = 'Redbull',
+		weight = 500,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+		}
+	},
+    ['caprisun'] = {
+		label = 'Capri Sun',
+		weight = 20,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ecola_can`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst with cola.'
+		}
+	},
+	['cola'] = {
+		label = 'Coca Cola',
+		weight = 350,
+		client = {
+			status = { thirst = 100000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ecola_can`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst with cola'
+		}
+	},

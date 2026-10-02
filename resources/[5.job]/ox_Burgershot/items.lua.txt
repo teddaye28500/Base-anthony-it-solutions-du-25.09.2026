@@ -1,0 +1,189 @@
+['farine'] = { 
+		label = 'Farine',
+		weight = 50,
+	},
+
+	['jusorange'] = { 
+		label = 'Jus Orange',
+		weight = 50,
+		client = {
+			status = { thirst = 500000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			notification = 'Tu as bu un jus Orange rafraîchissante'
+		}
+	},
+
+	['pepper'] = { 
+		label = 'Pepper',
+		weight = 50,
+		client = {
+			status = { thirst = 500000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			notification = 'Tu as bu un Pepper rafraîchissante'
+		}
+		
+	},
+
+	['sauce'] = { 
+		label = 'Sauce',
+		weight = 50,
+	},
+
+	['frites'] = { 
+		label = 'Frites',
+		weight = 50,
+		client = {
+			status = { hunger = 200000 },
+			anim = 'eating',
+			prop = 'prop_food_bs_chips',
+			usetime = 1500,
+			notification = 'Tu as mangé une délicieuse Frite '
+		},
+	},
+
+	['fromage'] = { 
+		label = 'Fromage',
+		weight = 50,
+	},
+
+	['poulet'] = { 
+		label = 'Poulet',
+		weight = 50,
+	},
+
+	['boulette'] = { 
+		label = 'Boulette',
+		weight = 50,
+	},
+
+	['saladecouper'] = { 
+		label = 'Salade Couper',
+		weight = 50,
+	},
+
+	['salade'] = { 
+		label = 'Salade',
+		weight = 50,
+	},
+
+	['steakhacher'] = { 
+		label = 'Steak Hacher',
+		weight = 50,
+	},
+
+	['pouletcouper'] = { 
+		label = 'Morceau de Poulet',
+		weight = 50,
+	},
+
+	['ketchup'] = { 
+		label = 'Ketchup',
+		weight = 50,
+	},
+
+	['bacon'] = { 
+		label = 'Bacon',
+		weight = 50,
+	},
+
+	['beurre'] = { 
+		label = 'Beurre',
+		weight = 50,
+	},
+
+	['patate'] = { 
+		label = 'Patate',
+		weight = 50,
+	},
+
+	['clubsandwitch'] = { 
+		label = 'Club Sandwitch',
+		weight = 50,
+		client = {
+			status = { hunger = 400000 },
+			anim = 'eating',
+			prop = 'prop_sandwich_01',
+			usetime = 2500,
+			notification = 'Tu as mangé un délicieux Sandwich'
+		},
+	},
+
+	['burito'] = { 
+		label = 'Burito',
+		weight = 50,
+		client = {
+			status = { hunger = 700000 },
+			anim = 'eating',
+			prop = 'prop_sandwich_01',
+			usetime = 2500,
+			notification = 'Tu as mangé une délicieuse Bourito '
+		},
+	},
+
+	['poutine'] = { 
+		label = 'Poutine',
+		weight = 50,
+		client = {
+			status = { hunger = 600000 },
+			anim = 'eating',
+			prop = 'prop_sandwich_01',
+			usetime = 2500,
+			notification = 'Tu as mangé une délicieuse Poutine '
+		},
+	},
+
+	['croquette'] = { 
+		label = 'Croquette',
+		weight = 50,
+		client = {
+			status = { hunger = 500000 },
+			anim = 'eating',
+			prop = 'prop_sandwich_01',
+			usetime = 2500,
+			notification = 'Tu as mangé une délicieuse Poutine '
+		},
+	},
+
+	['menuburger'] = { 
+		label = 'Menu Classique',
+		weight = 50,
+		client = {
+			status = { hunger = 1500000, thirst = 400000 },
+			anim = 'eating',
+			prop = 'prop_sandwich_01',
+			usetime = 2500,
+			notification = 'Tu as mangé un Délicieux Menu '
+		},
+	},
+
+	['liqueur'] = { 
+		label = 'Liqueur',
+		weight = 50,
+		client = {
+			status = { thirst = 400000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			notification = 'Tu as bu un liqueur rafraîchissante'
+		}
+	},
+
+	['glaces'] = { 
+		label = 'Glacon',
+		weight = 50,
+	},
+	['sponge'] = { 
+        label = 'éponge',
+        weight = 50,
+    },
+    ['spongedirty'] = { 
+        label = 'éponge sale',
+        weight = 50,
+    },

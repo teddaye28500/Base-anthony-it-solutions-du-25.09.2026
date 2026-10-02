@@ -1,0 +1,6 @@
+	["rentdocument"] = {
+		label = "document de location",
+		weight = 1,
+		stack = true,
+		close = true,
+	},

@@ -1,0 +1,66 @@
+['redbull'] = {
+		label = 'Redbull',
+		weight = 500,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+		}
+	},
+['vodka'] = {
+	label = 'Vodka',
+	weight = 500,
+	client = {
+		status = { thirst = 200000 },
+		anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+		prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+		usetime = 2500,
+		cancel = true,
+	}
+},
+['tequilla'] = {
+		label = 'Tequilla',
+		weight = 220,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_whiskey_bottle`, pos = vec3(0.01, 0.01, 0.01), rot = vec3(-5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'Tu bu une Tequilla el fucker'
+		},
+	},
+    ['cocktail'] = {
+		label = 'cocktail',
+		weight = 220,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_paper_cup`, pos = vec3(0.01, 0.01, 0.01), rot = vec3(-5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'Tu bu un cocktail'
+		},
+	},
+    ['jagerbomb'] = {
+		label = 'Jager Bomb',
+		weight = 220,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_whiskey_bottle`, pos = vec3(0.01, 0.01, 0.01), rot = vec3(-5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'Tu bu un Jager Bomb el fucker'
+		},
+	},
+    ['champagne'] = {
+		label = 'Champagne',
+		weight = 220,
+		client = {
+			status = { thirst = 2000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_whiskey_bottle`, pos = vec3(0.01, 0.01, 0.01), rot = vec3(-5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'Tu bu un Champagne el fucker'
+		},
+	},

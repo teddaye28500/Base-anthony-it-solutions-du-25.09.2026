@@ -1,0 +1,34 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames>
+    <Item>forests.ymap</Item>
+    <Item>forests_lod.ymap</Item>
+    <Item>forests01.ymap</Item>
+    <Item>forests01_lod.ymap</Item>
+    <Item>forests2.ymap</Item>
+    <Item>forests2_lod.ymap</Item>
+    <Item>forests3.ymap</Item>
+    <Item>forests3_lod.ymap</Item>
+    <Item>forests4.ymap</Item>
+    <Item>forests4_lod.ymap</Item>
+    <Item>forests5.ymap</Item>
+    <Item>forests5_lod.ymap</Item>
+    <Item>forests6.ymap</Item>
+    <Item>forests6_lod.ymap</Item>
+    <Item>forests7.ymap</Item>
+  </YmapFilenames>
+  <YtypFilenames>
+    <Item>forest_lods.ytyp</Item>
+  </YtypFilenames>
+  <YbnFilenames />
+  <YndFilenames />
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames />
+  <AudioRelFilenames />
+  <YdrFilenames />
+  <YddFilenames />
+  <YftFilenames />
+  <YtdFilenames />
+</CodeWalkerProject>

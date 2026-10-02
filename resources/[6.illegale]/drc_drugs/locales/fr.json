@@ -1,0 +1,149 @@
+{
+    "error" : "Erreur", 
+    "success" : "Succès", 
+    "info" : "Info", 
+    "fail" : "Vous avez échoué", 
+
+    "RequiredItems" : "Vous n’avez pas d’éléments requis!", 
+    "RequiredCops" : "Pas assez de flics dans la ville",
+    "RequiredTrowel" : "Vous n’avez pas de truelle pour déterrer cette plante!",
+    "RequiredCard" : "Vous n’avez pas la carte d’accès requise!",
+    "IvalidAmount" : "Montant non valide!",
+    "HasBought" : "A acheté %sx %s pour $%s ",
+    "HasSold" : "A vendu %sx %s pour $%s ",
+
+    "enter" : "Enter", 
+    "entering" : "Enter...", 
+    "leave" : "Partir", 
+    "leaving" : "Quitter...", 
+
+    "turnonelt" : "Allumer l’électricité", 
+    "turnoffelt" : "Coupez l’électricité", 
+    "turnonel" : "Allumer l’électricité...", 
+    "turnoffel" : "Couper l’électricité...", 
+    "turnonact" : "Allumez la climatisation", 
+    "turnoffact" : "Éteindre la climatisation", 
+    "turnonac" : "Allumer le climatiseur...", 
+    "turnoffac" : "Éteindre le climatiseur...", 
+    "needac" : "Vous devez allumer le climatiseur", 
+
+    "Oven" : "Four", 
+    "table" : "Table", 
+    "pickup" : "Décroche", 
+    "pickingup" : "Ramasser...", 
+
+    "shop" : "Shop", 
+    "Buying" : "Acheter...", 
+    "Amount" : "Quantité ? ", 
+    "Range" : "Gamme: ", 
+    "Pricefor" : "Prix pour 1x: $", 
+    "BreakFigure" : "Diviser le chiffre en deux...", 
+    "LocatingDealer" : "Essayer de localiser un trafiquant de drogue", 
+    "LocationInGPS" : "L’emplacement a été réglé sur votre GPS", 
+
+    "Pharmacist" : "Pharmacien", 
+    "PharmacistBreak" : "J’ai une pause en ce moment, si vous avez besoin de quoi que ce soit, venez ici entre 18 heures et 23 heures",
+
+    "Gerald" : "Gerald", 
+    "Listening" : "Écouter si quelqu’un se trouve à l’intérieur", 
+    "LocateDealer" : "Essayez de trouver un Dealer", 
+    "GeraldNotHome" : "On dirait que Gerald n’est pas à la maison en ce moment, réessayez plus tard", 
+
+    "Madrazo" : "Mr. Madrazo", 
+    "MadrazoNotHome" : "On dirait que M. Madrazo n’est pas à la maison en ce moment, réessayez plus tard",
+
+    "Coke" : "Coke", 
+
+    "CokeClean" : "Coke brut propre", 
+    "CokeCleaning" : "Nettoyage de la coke", 
+
+    "CokePack" : "Paquet de coke", 
+    "CokePacking" : "Emballage de coke", 
+
+    "CokeBox" : "Verser de la poudre de Coke", 
+    "CokeBoxProg" : "Verser de la poudre de coke", 
+
+    "CokeProcess" : "Versez le Coke dans la boîte", 
+    "CokeProcessing" : "Versez le Coke dans la boîte", 
+
+    "CokeFigure" : "Action Figurine",
+    "CokeCarryFigure" : "Figurine de transport/déportage", 
+    "CokeBreakigure" : "Casser la Figurine", 
+    "CokeRepairFigure" : "réparation de la Figurine",
+    "RepairingFigure" : "Réparation de la figurine",
+    "CokeRepairFigureDesc" : "Exigences: glue",
+
+    "WeedPack" : "Pack d’herbe", 
+    "WeedPacking" : "Emballage cannabis", 
+    "WeedColecting" : "Collecter bourgeons de cannabis", 
+    "WeedClean" : "Bourgeon de cannabis Propre", 
+    "WeedCleaning" : "Nettoyage des bourgeons de cannabis", 
+    "WeedColectedAlready" : "Vous avez déjà récolté cette plante", 
+
+    "BluntWraps" : "Blunt Wraps", 
+    "BluntRoll" : "Roulez un blunt", 
+    "BluntRolling" : "Rouler un blunt", 
+    "BluntDesc" : "1x Bag of weed, 1x Weed Wraps", 
+
+    "JointPapers" : "Weed papers", 
+    "JointRoll" : "Rouler un joint", 
+    "JointRolling" : "Roulage d’un joint", 
+    "JointDesc" : "1x Bag of weed, 1x Weed papers", 
+
+    "PrepairingSyringe" : "préréparation de seringue", 
+    "UnpackingXanax" : "Déballage du xanax", 
+
+    "MakeCrack" : "Faire du Crack",
+    "CrackMaking" : "Confection de Crack",
+
+    "HeroinProcess" : "Traiter les plants de pavot!",
+    "HeroinProcessing" : "Traitement des plants de pavot!",
+
+    "Meth" : "Meth", 
+    "MethHeat" : "Chauffer", 
+    "MethHeating" : "réchauffer", 
+    "MethHeated" : "Chauffé avec succès", 
+    "MethAlready" : "Vous aviez déjà chauffé", 
+    "MethNeedHeat" : "Vous devez chauffer le four", 
+
+    "MethGoFinish" : "Allez finir ce lot", 
+    "MethFinish" : "Terminer le lot", 
+    "MethFinishing" : "Lot de finition", 
+    "MethNeedFinish" : "Vous devez terminer ce lot", 
+    "MethStartCook" : "Vous devez commencer à cuisiner", 
+    "MethCook" : "Commencer à cuisiner", 
+    "MethCooking" : "Lot de cuisson", 
+
+    "MethPack" : "Pack Meth", 
+    "MethPacking" : "Emballage Meth", 
+
+    "MethRefuel" : "Bidon de ravitaillement", 
+    "MethRefueling" : "Ravitaillement Bidon", 
+
+    "MethBreaking" : "Casser de la méthamphétamine", 
+    "MethBreak" : "Break Meth",
+
+    "Syringe" : "Seringue", 
+    "InsertHeroin" : "Insérer de l’héroïne",
+    "InsertHeroinDesc" : "Ingredients: 1x Heroin",
+    "InsertMeth" : "Insérer de la méthamphétamine",
+    "InsertMethDesc" : "Ingredients: 1x Meth",
+    "Inserting" : "Insertion...",
+
+    "SellCooldown" : "Vous devez attendre un moment",
+    "StartSell" : "Commencer à vendre de la drogue",
+    "ChooseSell" : "Choisissez la drug à vendre!",
+    "SellPrice" : "Prix: De $%s À $%s",
+    "SellDrugs" : "Drug Vente",
+    "SellCancelDeal" : "Annuler l’offre",
+    "SellCancelingDeal" : "Annulation de l’offre",
+    "ClientFinding" : "Trouver des clients",
+    "Client" : "Client",
+    "ClientGPS" : "Le client vous a envoyé une position GPS",
+    "ClientOffer" : "Client Offre $%s pour %s %s",
+    "ClientDeclined" : "Le client a refusé votre offre",
+    "Sell" : "Vendre",
+    "Cancel" : "Annuler",
+    "Negotiate" : "Négocier",
+    "Negotiating" : "Négociation..."
+}

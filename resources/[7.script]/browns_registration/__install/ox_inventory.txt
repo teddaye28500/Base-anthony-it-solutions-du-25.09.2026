@@ -1,0 +1,17 @@
+	["vehicle_reg"] = {
+		label = "papier d'immatriculation",
+		weight = 0,
+		stack = false,
+		server = {
+			export = 'browns_registration.UseRegistration'
+		}
+	}, 
+
+	["vehicle_ins"] = {
+		label = "papier d'assurance",
+		weight = 0,
+		stack = false,
+		server = {
+			export = 'browns_registration.UseInsurance'
+		}
+	}, 

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Leboncoin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" style="display:none;">
+        <div id="market-bg"></div>
+        <header>
+            <h1 class="market-title"><span class="icon">📦</span><span class="title-text">Leboncoin</span></h1>
+            <div class="header-btns">
+                <button id="btn-accueil">Accueil</button>
+                <button id="btn-historique">Historique</button>
+                <button id="btn-vendre">Vendre</button>
+                <button id="btn-refresh">Actualiser</button>
+                <button id="btn-badges">Mes badges</button>
+                <button id="btn-allbadges">Tous les badges</button>
+                <button id="btn-fermer">Fermer</button>
+            </div>
+        </header>
+        <main>
+
+            <!--Liste des annonces actif-->
+            <section id="home-section" class="page">
+                <div class="annonce-filter-bar">
+                    <button id="btn-all-ads" class="selected">Toutes les annonces</button>
+                    <button id="btn-my-ads">Mes annonces</button>
+                </div>
+                <div class="annonces-list" id="annonces-list"></div>
+            </section>
+
+            <!--Crée une annonce-->
+            <section id="vendre-section" class="page" style="display:none;">
+                <h2>Créer une annonce</h2>
+                <form id="vendre-form" autocomplete="off" novalidate>
+                    <div class="form-field">
+                        <input type="text" id="item_name" placeholder=" " required>
+                        <span class="input-icon">🔑</span>
+                        <label for="item_name">Nom interne de l’item (ex: bread/water) (Voir documentation)</label>
+                        <div class="field-error"></div>
+                    </div>
+                    <div class="form-field">
+                        <input type="text" id="item_label" placeholder=" " required>
+                        <span class="input-icon">🏷️</span>
+                        <label for="item_label">Nom affiché (ex: Pain frais)</label>
+                        <div class="field-error"></div>
+                    </div>
+                    <div class="form-field">
+                        <input type="number" id="item_amount" placeholder=" " min="1" value="1" required>
+                        <span class="input-icon">🔢</span>
+                        <label for="item_amount">Quantité</label>
+                        <div class="field-error"></div>
+                    </div>
+                    <div class="form-field">
+                        <input type="number" id="item_price" placeholder=" " min="1" required>
+                        <span class="input-icon">💰</span>
+                        <label for="item_price">Prix ($)</label>
+                        <div class="field-error"></div>
+                    </div>
+                    <div class="form-field">
+                        <input type="text" id="item_img" placeholder=" ">
+                        <span class="input-icon">🖼️</span>
+                        <label for="item_img">URL de l’image (facultatif)</label>
+                        <div class="field-error"></div>
+                    </div>
+                    <div class="form-field">
+                        <textarea id="item_desc" placeholder=" "></textarea>
+                        <span class="input-icon">📝</span>
+                        <label for="item_desc">Description (facultatif)</label>
+                        <span class="textarea-resize"></span>
+                        <div class="field-error"></div>
+                    </div>
+                    <button type="submit">Publier (1000$)</button>
+                </form>
+
+            </section>
+
+            <!--Historique Achat/Vente-->
+            <section id="historique-section" class="page" style="display:none;">
+                <h2>Historique</h2>
+                <div class="custom-select-wrapper">
+                  <div id="histo-filter-select" class="custom-select">
+                    <span class="selected">Toutes</span>
+                    <div class="custom-options" style="display:none;">
+                      <span class="custom-option selected" data-value="all">Toutes</span>
+                      <span class="custom-option" data-value="sales">Ventes</span>
+                      <span class="custom-option" data-value="buys">Achats</span>
+                      <span class="custom-option" data-value="active">Annonces actives</span>
+                    </div>
+                  </div>
+                </div>
+                <div id="historique-list"></div>
+            </section>
+
+
+            <!--Badge-->
+        <section id="badges-section" class="page" style="display:none;">
+            <h2>🏅 Mes Badges</h2>
+            <div class="badge-help" style="color:#ffb700; margin-bottom:15px;">
+                Débloque des badges en réalisant des ventes ou en recevant un badge spécial par un admin !
+            </div>
+            <div id="badges-list"></div>
+        </section>
+
+        <!-- Tout les Badge-->
+        <section id="allbadges-section" class="page" style="display:none;">
+            <h2>🎖️ Tous les badges disponibles</h2>
+            <div id="allbadges-list"></div>
+        </section>
+
+        </main>
+
+        <!-- Popups -->
+        <div id="popup-bg" style="display:none;">
+            <div id="popup-annonce"></div>
+        </div>
+        <div id="notify"></div>
+
+        <!--Footer By Ducratif-->
+        <footer id="main-footer">
+            <div class="footer-glow"></div>
+            <div class="footer-content">
+                <span class="footer-title">🚀 Marché Dynamique</span>
+                <span class="footer-info">Anthony IT Solutions — 2026 &copy; Tous droits réservés</span>
+                <span class="footer-social">
+                    <a href="https://discord.gg/guerrerp" target="_blank" title="Discord"><img src="assets/discord.png" alt="Discord"></a>
+                    <a href="https://ducrashop.fr" target="_blank" title="Shop"><img src="assets/shop.png" alt="Shop"></a>
+                </span>
+            </div>
+        </footer>
+
+        <!--Fin de app-->
+    </div>
+
+    
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
