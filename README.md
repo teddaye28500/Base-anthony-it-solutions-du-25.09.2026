@@ -19,3 +19,5 @@ La base inclut des systèmes d’emotes, de gestion du temps et de l’heure, un
 De nombreuses activités sont disponibles : billard, salle d’arcade, salle de boxe, combats sur la plage, pêche avec plusieurs spots et un système d’XP qui débloque de nouveaux lieux, chasse avec deux zones, un point de traitement et un point de vente, bowling, ainsi que des courses variées : karting, buggy, motocross, football.
 
 Il ne vous restera plus qu’à ajouter vos mappings de gangs, créer vos gangs grâce au gangbuilder fourni, et intégrer votre système de téléphone ainsi que votre radio.
+
+par contre je ne fournirai pas support dessus !!!!
