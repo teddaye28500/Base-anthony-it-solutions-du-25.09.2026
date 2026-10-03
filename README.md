@@ -20,4 +20,4 @@ De nombreuses activités sont disponibles : billard, salle d’arcade, salle de 
 
 Il ne vous restera plus qu’à ajouter vos mappings de gangs, créer vos gangs grâce au gangbuilder fourni, et intégrer votre système de téléphone ainsi que votre radio.
 
-par contre je ne fournirai pas support dessus !!!!
+⚠️ Par contre, je ne fournirai aucun support concernant cette base !!!!
